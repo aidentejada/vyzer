@@ -1,0 +1,29 @@
+# Tauri / Rust
+src-tauri/target/
+dist/
+dist-tauri/
+*.pdb
+
+# Node / npm
+node_modules/
+.pnpm-debug.log
+npm-debug.log
+
+# Secrets (never commit keys)
+.env.local
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# SQLite
+*.db
+*.db-shm
+*.db-wal
